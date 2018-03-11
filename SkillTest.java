@@ -26,7 +26,7 @@ public class SkillTest {
         SkillTest st = new SkillTest();
         String orgName = ""; // the name of the organization you wish to search
         String ownerUser = ""; // login for an owner within the organization
-        String ownerPersonalKey = ""; // personal key generated for the owner listed above
+        String ownerPersonalKey = ""; // personal access token generated for the owner listed above
 
         String credentials = ownerUser + ":" + ownerPersonalKey;
         
